@@ -1,0 +1,1 @@
+--exclude-from='/home/yoviajo/Descargas/a/excluir-dirs.txt'

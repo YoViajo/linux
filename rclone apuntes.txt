@@ -1,0 +1,18 @@
+# Mover archivo
+rclone move source:path dest:path
+
+# Palabras claves de servicios
+box
+gdrive_p
+gdrive_o
+mega
+odrive
+
+# Mover entre unidades de la nube
+rclone move gdrive_pers:\APO\M mega:\APO\M
+rclone move gdrive_pers:\APO\Mm mega:\APO\Mm
+rclone move gdrive_pers:\APO\Dt mega:\APO\Dt
+rclone move gdrive_pers:\APO\Adrian mega:\APO\Adrian
+
+# Matar el contenido del cache (para casos de errores)
+rm -r ~/.cache/rclone/vfs/*

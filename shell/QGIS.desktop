@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=3.0
+Type=Application
+Terminal=false
+Exec=/home/yoviajo/Documentos/lab/shell/inic_qgis.sh
+Name=QGIS
+Comment=
+Icon=/home/yoviajo/Documentos/lab/shell/qgis-logo_big-2.png

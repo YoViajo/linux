@@ -1,0 +1,17 @@
+## Updating the ClamAV Signature Database
+
+# First step is to stop the clamav-freshclam service by running the following command in the terminal window
+
+ubuntu@ubuntu:~$ sudo systemctl stop clamav-freshclam
+
+
+# In the Second Step, now we have to update the signature database manually.
+
+ubuntu@ubuntu:~$ sudo freshclam
+
+
+# You can scan your whole ubuntu system by running the following command in the terminal window
+
+ubuntu@ubuntu:~$ sudo clamscan --infected --recursive --remove /
+
+

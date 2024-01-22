@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/yoviajo/Documentos/lab/shell/respaldar_bd_psql.sh
+Name=Respaldar BDs psql
+Comment=
+Icon=/home/yoviajo/Documentos/lab/shell/postgresql-logo-clipart-6-1748853262.png

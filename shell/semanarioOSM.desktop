@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/opt/mattermost-desktop-5.2.0-linux-x64/mattermost-desktop
+Name=semanarioOSM mattermost
+Comment=mattermost
+Icon=/home/yoviajo/Documentos/lab/shell/mattermost.png

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/yoviajo/Documentos/lab/shell/mover_gpx_Rk.sh
+Name=Mover GPX Rk
+Comment=
+Icon=/home/yoviajo/Documentos/lab/shell/gpx-file-format-symbol_318-45803-1339517582.png

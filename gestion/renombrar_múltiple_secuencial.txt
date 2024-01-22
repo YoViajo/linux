@@ -1,0 +1,8 @@
+
+# Renombrar archivos de forma secuencial, usando un valor de partida. Muestra qué se hará, sin hacer cambios (-n)
+rename -n 's/.+/our $i; sprintf("_DSC%04d.ARW", 46+$i++)/e' *
+
+
+# Renombrar archivos de forma secuencial, usando un valor de partida. Aplica cambios
+rename 's/.+/our $i; sprintf("_DSC%04d.ARW", 46+$i++)/e' *
+

@@ -1,0 +1,30 @@
+## Montar unidades aprovechando accesos creados en Rclone
+mkdir ~/OneDrive
+rclone --vfs-cache-mode writes mount odrive: ~/OneDrive
+
+mkdir ~/Dropbox
+rclone --vfs-cache-mode writes mount dbox: ~/Dropbox
+
+mkdir ~/Box
+rclone --vfs-cache-mode writes mount box: ~/Box
+
+mkdir ~/GD_p
+rclone --vfs-cache-mode writes mount gdrive_p: ~/GD_p
+
+mkdir ~/GD_o
+rclone --vfs-cache-mode writes mount gdrive_o: ~/GD_o
+
+mkdir ~/Mega
+rclone --vfs-cache-mode writes mount mega: ~/Mega
+
+mkdir ~/pCloud
+rclone --vfs-cache-mode writes mount pcloud: ~/pCloud
+
+## Para que se habiliten automáticamente al inicio
+sh -c "rclone --vfs-cache-mode writes mount odrive: ~/OneDrive"
+sh -c "rclone --vfs-cache-mode writes mount dbox: ~/Dropbox"
+sh -c "rclone --vfs-cache-mode writes mount box: ~/Box"
+sh -c "rclone --vfs-cache-mode writes mount gdrive_p: ~/GD_p"
+sh -c "rclone --vfs-cache-mode writes mount gdrive_o: ~/GD_o"
+sh -c "rclone --vfs-cache-mode writes mount mega: ~/Mega"
+sh -c "rclone --vfs-cache-mode writes mount pcloud: ~/pCloud"

@@ -1,0 +1,20 @@
+## Ajustar la resolución de monitor
+xrandr -s 1920x1080
+
+
+## Editar menú de Linux Mint
+$ cinnamon-menu-editor &
+
+
+## Renombrar entre archivo JPG la porción del nombre "resultado" por "" (quitar esa parte)
+rename 's/_resultado//' *.jpg
+
+
+## Buscar archivos con nombre que incluye la palabra "resultado"
+find . -name "*resultado*
+
+
+## Buscar archivos excluyendo directorios
+find / -type d \( -name Box -o -name Dropbox -name GD_o -name GD_p -name Mega -name OneDrive -o -path name \) -prune -false -o -name gdal_merge.py
+
+
