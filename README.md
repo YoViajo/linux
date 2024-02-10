@@ -13,3 +13,5 @@ La distribución de referencia es Linux Mint.
 
 [Mover varios archivos de una unidad en la nube a un directorio local](shell/02/mover_gpx_Rk.sh)
 
+[Ejecutar script de respaldo de una base de datos](shell/03/respaldar_bd_psql.sh)
+
