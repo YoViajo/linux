@@ -15,3 +15,4 @@ La distribución de referencia es Linux Mint.
 
 [Ejecutar script de respaldo de una base de datos](shell/03/respaldar_bd_psql.sh)
 
+[Iniciar versión Python/Anaconda de QGIS](shell/04/inic_qgis.sh)
