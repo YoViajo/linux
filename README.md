@@ -31,6 +31,6 @@ La distribución de referencia es Linux Mint.
 
 [Agregar ceros en el nombre de un archivo que se renombra](/gestion/renombrar_arch_zeros.sh)
 
-[Renombrar archivos de forma secuencia, dado un valor de partida](/gestion/renombrar_múltiple_secuencial.txt)
+[Renombrar archivos de forma secuencial, dado un valor de partida](/gestion/renombrar_múltiple_secuencial.txt)
 
 
